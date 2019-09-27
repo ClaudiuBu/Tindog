@@ -1,0 +1,223 @@
+/******************** TAG SELECTOR *************************/
+body{
+  font-family: "Montserrat";
+}
+
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+h2{
+  color:white;
+  font-family:"Montserrat-Black", sans-serif;
+  line-height: 1.1;
+  font-weight: 700;
+}
+h3{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+
+/*******************************CLASS SELECTOR **********************/
+.container-fluid{
+  padding:3% 15% 7%;
+
+}
+
+.overflow_t{
+  background-color:white;
+  height:19rem;
+  z-index:1;
+
+}
+.navbar-brand{
+  font-weight:bold ;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+.navbar{
+  padding-bottom: 3rem;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat";
+}
+.download-button{
+  margin:5% 2% 5% 0;
+}
+
+.bg-site{
+  background-color:#ff4c68;
+}
+.icon{
+  color:#ef8172;
+}
+.title-image{
+  width:70%;
+  position:absolute;
+  right: 30%;
+}
+.rotate_img{
+  transform: rotate(25deg);
+}
+
+.heart:hover{
+  transition: 0.5s;
+  color:#ff4c68;
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel-item img{
+  width:70px;
+  height:70px;
+ border-radius:40px;
+ padding-right:0.5rem;
+}
+.carousel-item h2{
+  line-height: 150%;
+  padding-bottom: 1rem;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+.social-icons a{
+  padding:10px;
+  color:#aaa;
+  text-decoration: none;
+}
+ .social-icons a:hover{
+  transition: 0.5s;
+  transform:scale(2,2.1);
+}
+.twitter:hover{
+  color:#00acee;
+}
+
+.facebook:hover{
+  color:#3b5998 ;
+}
+
+.insta:hover{
+
+color:#DD2A7B;
+}
+
+.mail:hover{
+  color:gold;
+}
+/******************* ID SELECTOR ***************************/
+
+#features{
+  padding:4rem 0;
+  background-color:White;
+  position: relative;
+
+}
+
+#testimonials{
+  background-color:#ef8172;
+  text-align:center;
+}
+#press{
+  background-color:#ef8172;
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+#pricing h2{
+  color:black;
+  font-weight: bold;
+
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  padding:7% 15%;
+}
+#cta h3{
+  color:#fff;
+  font-size:2.5rem;
+  font-weight: bolder;
+  padding:3% 5%;
+}
+#footer{
+  text-align:center;
+  padding:5% 0;
+}
+#footer p:hover{
+  transition:1s;
+  transform: rotate(360deg);
+}
+/****************** Media queries breakpoint *****************/
+
+@media  (max-width:468px) {
+
+  h1{
+    font-size:2rem;
+  }
+  h2{
+    font-size:1.5rem;
+  }
+
+.container-fluid{
+  padding:3% 5% 3%;
+  text-align:center;
+}
+.navbar{
+  padding-bottom:1rem;
+}
+.title-image{
+  display:none;
+}
+  #pricing{
+    padding:50px;
+  }
+  #cta h3{
+    font-size:1rem;
+  }
+}
+@media  (max-width:768px) {
+  .navbar{
+    padding-bottom:1.5rem;
+  }
+  h1{
+    font-size:2rem;
+  }
+
+  .title-image{
+    display:none;
+  }
+}
+@media  (max-width:992px) {
+  .container-fluid{
+    text-align:center;
+  }
+  .title-image{
+    display:none;
+  }
+
+}
+@media  (max-width:1200px) {
+  .title-image{
+    transform:rotate(0deg);
+  }
+}
