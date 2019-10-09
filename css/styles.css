@@ -1,6 +1,7 @@
 /******************** TAG SELECTOR *************************/
 body{
   font-family: "Montserrat";
+  margin:0;
 }
 
 h1{
@@ -162,10 +163,6 @@ color:#DD2A7B;
 #footer{
   text-align:center;
   padding:5% 0;
-}
-#footer p:hover{
-  transition:1s;
-  transform: rotate(360deg);
 }
 /****************** Media queries breakpoint *****************/
 
